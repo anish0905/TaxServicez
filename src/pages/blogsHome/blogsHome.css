@@ -1,0 +1,162 @@
+.blogs__header{
+text-align: center;
+}
+
+.blogs__header h2{
+    color: #0080ff;
+    font-size:2rem;
+}
+
+.blogs__header h1{
+font-size: 3rem;
+color: #0f52ba;
+margin-bottom :1rem ;
+}
+
+.blogs__header h1 span{
+    color: #b0c4de;
+}
+
+.blogs__header p{
+    color: #a9a9a9;
+    font-weight: 500;
+}
+
+
+/* -------------Search Bar-------------------------------------------------------- */
+
+.searchbar__Wrap{
+    background-color: #f0f0f0;
+    width: fit-content;
+    margin: 2.5rem auto 4rem auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+
+
+.searchbar__Wrap form{
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbar__Wrap input{
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
+}
+
+
+
+.searchbar__Wrap span{
+    padding-right: .5rem;
+    cursor: pointer;
+}
+
+
+.searchbar__Wrap button{
+    outline: none;
+    border: none;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    background-color: #0f52ba;
+    color: #fff;
+}
+
+.blogsList__Wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:3rem
+}
+
+.blogsItem__wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogsItem__cover{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: .5rem;
+}
+.blogsItem__wrap h3{
+    margin: .5rem 0 1rem 0;
+    flex: 1;
+
+
+}
+
+.blogsItem__desc{
+    position: relative;
+    max-height: 63px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    padding-right: 0.6rem;
+    color: #a9a9a9;
+}
+.blogsItems__desc{
+    margin: 20px 20px;
+    /* position: relative;
+    max-height: 63px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    padding-right: 0.6rem;
+    color: #a9a9a9; */
+}
+
+
+
+
+.blogsItem__desc::before{
+    position: absolute;
+    content: "........";
+    bottom: 0;
+    right: 0;
+}
+
+
+.blogsItem__wrap main{
+    display:flex;
+    align-items:center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.blogs__link{
+    text-decoration: none;
+    color:inherit;
+}
+
+.blogsItem__author{
+    display: flex;
+    align-items: center;
+}
+.blogsItem__author img{
+    width: 170px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.blogsItem__author p{
+    font-size: .6rem;
+    color: #a9a9a9;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .blogsList__Wrap{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:600px){
+    .blogsList__Wrap{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
