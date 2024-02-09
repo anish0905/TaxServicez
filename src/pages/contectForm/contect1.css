@@ -3,24 +3,27 @@
     /* width: 100vw; */
     /* height: 500px; */
     display: flex;
+    background-color:hwb(208 2% 86%);
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-
+    
 }
 
 .containerC table tr td {
+    
+    background-color:hwb(208 2% 86%);
 width: 50%;
-background-color:hwb(207 2% 78%);
-margin: 50px;
+
+margin: 30px;
 border: 5px;
 }
 .containerC table tr td input{
     font-size: 20px;
     padding: 30px 5px;
     margin: 5px;
-width: 350px;
+width: 340px;
 height: 25px;
 }
 
@@ -28,11 +31,14 @@ height: 25px;
     font-size: 20px;
     padding: 30px;
     margin: 15px;
-width: 350px;
+width: 340px;
 height: 200px;
 }
 
 .containerC table #input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     padding: 30px;
     margin: 15px;
@@ -44,4 +50,51 @@ height: 50px;
 background-color:hwb(207 2% 78%);
 color: antiquewhite;
 }
+.containerC table #input1:hover{
+    font-size: 25px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    
+   border-radius: 5px;
+width: 300px;
+height: 50px;
+background-color:antiquewhite;
 
+color: hwb(207 2% 78%);
+
+}
+
+/* ddd */
+/* contect1.css */
+
+.containerC {
+    max-width: 600px; /* Adjust the maximum width based on your design */
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Add media query for responsiveness */
+  @media only screen and (max-width: 600px) {
+    .containerC {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
