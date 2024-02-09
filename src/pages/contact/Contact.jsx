@@ -9,6 +9,8 @@ import HeaderImage from "../../image/getInTouch.png"
 
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
+import ContactForm from '../contectForm/ContectForm'
+import SendEmail from '../contectForm/SendEmail';
 const Contact = () => {
   return (
     <>   
@@ -47,7 +49,10 @@ const Contact = () => {
     </div>
     
     </div>
+    <SendEmail/>
+     <ContactForm/>
      </section>
+
      </>
 
   )

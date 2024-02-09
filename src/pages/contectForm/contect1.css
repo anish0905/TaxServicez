@@ -1,0 +1,47 @@
+.containerC{
+    /* background-color: hsl(160, 63%, 80%); */
+    /* width: 100vw; */
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.containerC table tr td {
+width: 50%;
+background-color:hwb(207 2% 78%);
+margin: 50px;
+border: 5px;
+}
+.containerC table tr td input{
+    font-size: 20px;
+    padding: 30px 5px;
+    margin: 5px;
+width: 350px;
+height: 25px;
+}
+
+.containerC table tr td textarea{
+    font-size: 20px;
+    padding: 30px;
+    margin: 15px;
+width: 350px;
+height: 200px;
+}
+
+.containerC table #input1{
+    font-size: 25px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    
+   border-radius: 5px;
+width: 300px;
+height: 50px;
+background-color:hwb(207 2% 78%);
+color: antiquewhite;
+}
+
