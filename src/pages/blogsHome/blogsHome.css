@@ -132,6 +132,7 @@ margin-bottom :1rem ;
 .blogsItem__author{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .blogsItem__author img{
     width: 170px;
