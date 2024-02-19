@@ -35,6 +35,7 @@ import TanBlog from './pages/BlogsService/TanBlog';
 import BlogsList from "./Component/BlogsList"
 import {Helmet} from 'react-helmet';
 import ScrollToTop from "./Component/ScrollToTop"
+import Tdsself from './pages/plans/Tdsself';
 
 
 const App = () => {
@@ -72,7 +73,8 @@ const App = () => {
 <Route path='itrservices' element={<ItrSection/>}/>
 <Route path='tds/tcs' element={<Tds/>}/>
 <Route path='form26QB' element={<Form26qb/>}/>
-<Route path ='pancard' element={<PanCard/>}/>
+<Route path ='pancard' element={<PanCard/>}/> 
+<Route path='tdsself' element={<Tdsself/>}/>
 <Route path ='tanapplication' element={<TanApplication/>}/>
 <Route path ='digitalsignaturecertificate' element={<Dsc/>}/>
 <Route path ='formgeneration' element={<Form16/>}/>
@@ -84,7 +86,7 @@ const App = () => {
 <Route path ='gstblogservice' element={<GstBlog/>}/>
 <Route path ='panblogservice' element={<PanBlog/>}/>
 <Route path ='tds/tcs/blogservice' element={<ReturnBlog/>}/>
-<Route path ='payment/directtax/selfassessment/blogservice' element={<SelfBlog/>}/>
+<Route path ='payment/directtax/selfassessment' element={<SelfBlog/>}/>
 <Route path ='tanblogservice' element={<TanBlog/>}/>
 
 </Routes>

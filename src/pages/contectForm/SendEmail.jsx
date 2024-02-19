@@ -18,7 +18,7 @@ const SendEmail = () => {
     }
     else {
       setMessage("")
-      // setMessage("Email is not valid");
+     
     }
   };
   const handelOnChange = (e) => {

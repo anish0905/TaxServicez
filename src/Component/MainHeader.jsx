@@ -7,11 +7,14 @@ const MainHeader = () => {
  <header className='main__header'>
 
  <div className="container  main__header-container">
+  
 <div className="main__header-left">
   <h4>24*7 full support</h4>
+
  <Link to="/blogshome"> <h1 className='smallresp'> A COMPLETE GST AND INCOME TAX SOLUTION AT ONE PLACE </h1></Link>
-  <p>Maximizing Your Benefits: Premium Taxation and Legal Services Combined in One Place!.
-  </p>
+ 
+  <h4>Maximizing Your Benefits: Premium Taxation and Legal Services Combined</h4>
+<p>Explore TaxServicez for all your GST and income tax needs. Our integrated platform provides premium taxation and legal services, ensuring maximum benefits. Enjoy streamlined processes, expert guidance, and personalized support. Start optimizing your tax journey today!</p>
 
 <Link to="/services" className='btn lg'>Get Started</Link>
 

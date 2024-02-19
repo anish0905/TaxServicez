@@ -37,7 +37,7 @@ const Blogs = () => {
   <title>{blog.title}</title>
   <meta
    name="description"
-   content='Get to know the team of tax experts behind Tax Servicez, the leading provider of GST and income tax solutions in India. Our experienced tax consultants are committed to providing customized solutions for businesses and individuals alike. From GST registration and compliance to income tax return filing and tax planning, we offer a comprehensive suite of services to meet your needs. Discover how we can help you navigate the complex world of taxation and achieve your financial goals. Contact Tax Servicez today for reliable and hassle-free tax solutions!'
+   content={blog.title}
   />
 </Helmet>
               <p className="blog-date">Published {blog.createdAt}</p>

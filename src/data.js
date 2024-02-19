@@ -76,7 +76,7 @@ export const programs=[
     icons:<RiWechatPayLine/>,
     title:"TDS/TCS, ADVANCE TAX, SELF ASSESSMENT TAX ",
     info:"Effortless Payment of Direct Taxes: Simplifying the Process for Taxpayers.",
-    path:"/payment/directtax/selfassessment"
+    path:"/tdsself"
 },
 
 
@@ -298,7 +298,7 @@ export const faqs=[
             {feature:'5.	Aadhaar card of any authorised signatory',available:true},
             {feature:'6.	Signatory’s proof of appointment ',available:true},
             {feature:'7.	LLP proof of registration ',available:true},
-            {feature:'8.	Bank details ',available:true},
+             {feature:'8.	Bank details ',available:true},
             {feature:'9.	Business principal address proof ',available:true},
            
         ]
@@ -398,7 +398,7 @@ export const itrSection =[
         id:1,
         name:"ITR-1	",
         desc:"  ",
-        price:399,
+        price:499,
 
         features:[
             {feature:'1.	Form -16 issued by your employer.',available:true},
@@ -417,7 +417,7 @@ export const itrSection =[
         id:2,
         name:"ITR -2	",
         desc:"  ",
-        price:399,
+        price:699,
 
         features:[
             {feature:'1.Income From Salary/ Pension/ form 16',available:true},
@@ -436,7 +436,7 @@ export const itrSection =[
         id:3,
         name:"	ITR-3",
         desc:"  ",
-        price:399,
+        price:999,
 
         features:[
             {feature:'1.	Form 16 issued by employer in case salary income is earned. ',available:true},

@@ -52,7 +52,7 @@ return(
     
   })
 }
-<Link to="/blogspost/newpost/tranding"><span style={ {   border: "2px solid",
+<Link to="/payment/directtax/selfassessment/blogservice"><span style={ {   border: "2px solid",
     width: "110px",
     height: "33px",background:"#5a3434 " ,color:"white"}}><FcReading/>Click here</span> </Link>
 
